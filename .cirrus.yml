@@ -60,7 +60,7 @@ build_task:
       env:
         CRYPTO: hacl
       crypto_script:
-        - git clone https://github.com/paparazzi/hacl-c ../hacl-c
+        - git clone https://github.com/benpicco/hacl-c_archived ../hacl-c
         - bash -c "cd ../hacl-c && make -j"
     - name: c25519
       env:
